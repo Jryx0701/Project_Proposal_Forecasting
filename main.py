@@ -170,5 +170,4 @@ elif market_list != "Global Product":
                     f"- Std. Deviation: {std_dev:.2f}\n"
                     f"- Current Stock: {current_stock_store}\n"
                     f"- 📢 Recommendation: {Recommended}")
-                    
 #--------------------------------------------------------------------------------------
