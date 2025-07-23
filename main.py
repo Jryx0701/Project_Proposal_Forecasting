@@ -115,6 +115,7 @@ if market_list == "Global Products":
                     f"- Trend: {trend:.2f} units/days\n"
                     f"- Std. Deviation: {std_dev:.2f}\n"
                     f"- Current Stock: {current_stock}\n"
+                    f"- Reliability: {100 - result_per_product['rmse_percent']:.2f}%\n"
                     f"- 📢 Recommendation: {recommendation}")
 
 elif market_list != "Global Product":
@@ -169,5 +170,6 @@ elif market_list != "Global Product":
                     f"- Trend: {trend:.2f} units/days\n"
                     f"- Std. Deviation: {std_dev:.2f}\n"
                     f"- Current Stock: {current_stock_store}\n"
+                    f"- Reliability: {100 - product_prediction['rmse_percent']:.2f}%\n"
                     f"- 📢 Recommendation: {Recommended}")
 #--------------------------------------------------------------------------------------
